@@ -10,7 +10,6 @@ public class Class1
             for (int i = 0; i < d; i++)
                 for (int j = n - 1; j >= 0; j = j - 2)
                 {
-
                     if (j != 0)
                     {
                         tmp.Enqueue(arr[j - 1]);
