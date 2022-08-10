@@ -1,13 +1,11 @@
 public class Program
 {
-	
 /*
 Write a function that takes in an array of at least three integers and without sorting the input array, returns a sorted array of the three largest integers in the input array.
 
 Example:
 Input: [10, 141, 60, 500, 1, -100, 15]
 Output: [ 60, 141, 500]
-
 */
 	public static void Main()
 	{
@@ -61,6 +59,6 @@ Output: [ 60, 141, 500]
                 arr[k] = tmps.Pop();
             }
 
-			return arr; //tmps.ToArray();//tmps.Take(3).ToArray();//s.Take(3).ToArray();
+			return arr; 
 		}
     }
