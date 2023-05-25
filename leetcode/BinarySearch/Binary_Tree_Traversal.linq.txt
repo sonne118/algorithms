@@ -1,0 +1,32 @@
+Pre-order
+<root><left><right>
+In-order
+<left><root><right>
+Post-order
+<left><right><root>
+
+
+we cross out the left subtree label on vertex B
+and move to vertex D
+
+Since 35 is less than 40,
+
+
+we attempt to
+move into node 33’s right subtree.
+
+
+Preorder (DLR) Traversal
+•
+Inorder (LDR) Traversal
+•
+Postorder (LRD) Traversal
+
+Let’s walk through it and see where it ends up.
+
+still holds  до сих пор сохраняется
+
+start by looking in its right subtree
+
+The left pointer will point towards the left child of the node and the right pointer 
+will point towards the right node
