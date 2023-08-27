@@ -19,7 +19,6 @@ class Node
 }
 class Solution
 {
-
 	static Queue<Node> queue = new Queue<Node>();
 	static void levelOrder(Node root)
 	{
